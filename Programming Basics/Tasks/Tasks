@@ -4,3 +4,4 @@ This is a list of tasks.
 1. Create a "Hello World" program.
 2. Print numbers form 1 to 10 using println command.
 3. Create a program that calculates the area of a rectangle.
+4. Create a program that converts inches to centimeters. Given that one inch is equal to 2.54.

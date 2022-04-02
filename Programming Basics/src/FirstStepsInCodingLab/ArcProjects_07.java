@@ -1,3 +1,4 @@
+package FirstStepsInCodingLab;
 import java.util.Scanner;
 
 public class ArcProjects_07 {
@@ -7,6 +8,7 @@ public class ArcProjects_07 {
         int projects = Integer.parseInt(scanner.nextLine());
         int hours = projects * 3;
         System.out.println("The architect " + architect + " will need " + hours + " hours to complete " + projects + " project/s." );
+        scanner.close();
 
     }
 }

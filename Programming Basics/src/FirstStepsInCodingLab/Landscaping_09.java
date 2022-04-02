@@ -1,3 +1,5 @@
+package FirstStepsInCodingLab;
+
 import java.util.Scanner;
 
 public class Landscaping_09 {
@@ -9,5 +11,6 @@ public class Landscaping_09 {
         double priceWithDiscount = price - discount;
         System.out.println( "The final price is: " + priceWithDiscount + " lv." );
         System.out.println( "The discount is: " + discount + " lv." );
+        scanner.close();
     }
 }

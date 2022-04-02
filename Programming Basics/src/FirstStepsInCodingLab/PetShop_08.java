@@ -1,3 +1,5 @@
+package FirstStepsInCodingLab;
+
 import java.util.Scanner;
 
 public class PetShop_08 {
@@ -6,5 +8,6 @@ public class PetShop_08 {
         int dogFood = Integer.parseInt(scanner.nextLine());
         int catFood = Integer.parseInt(scanner.nextLine());
         System.out.println( (dogFood * 2.5 + catFood * 4) + " lv.");
+        scanner.close();
     }
 }

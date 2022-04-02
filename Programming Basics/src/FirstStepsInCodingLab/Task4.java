@@ -1,3 +1,5 @@
+package FirstStepsInCodingLab;
+
 import java.util.Scanner;
 
 public class Task4 {
@@ -5,5 +7,6 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         int a = Integer.parseInt(scanner.nextLine());
         System.out.println(a*2.54);
+        scanner.close();
     }
 }

@@ -8,6 +8,8 @@ public class E04 {
         double tripPrice = Double.parseDouble(scanner.nextLine());
         int puzzleCount = Integer.parseInt(scanner.nextLine());
         int dollsCount = Integer.parseInt(scanner.nextLine());
+        int teddyBearsCount = Integer.parseInt(scanner.nextLine());
+        int minionsCount = Integer.parseInt(scanner.nextLine());
 
     }
 

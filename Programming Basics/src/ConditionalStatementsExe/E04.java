@@ -10,6 +10,11 @@ public class E04 {
         int dollsCount = Integer.parseInt(scanner.nextLine());
         int teddyBearsCount = Integer.parseInt(scanner.nextLine());
         int minionsCount = Integer.parseInt(scanner.nextLine());
+        int trucksCount = Integer.parseInt(scanner.nextLine());
+        double discount = 0.0;
+        if (puzzleCount + dollsCount + teddyBearsCount + minionsCount + trucksCount >= 50 ){
+            discount = 0.25;
+        }
 
     }
 

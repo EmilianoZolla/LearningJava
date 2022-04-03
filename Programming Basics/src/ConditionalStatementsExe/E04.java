@@ -11,11 +11,19 @@ public class E04 {
         int teddyBearsCount = Integer.parseInt(scanner.nextLine());
         int minionsCount = Integer.parseInt(scanner.nextLine());
         int trucksCount = Integer.parseInt(scanner.nextLine());
-        double discount = 0.0;
+        double discount = 1.0;
         if (puzzleCount + dollsCount + teddyBearsCount + minionsCount + trucksCount >= 50 ){
             discount = 0.25;
         }
-
+        double totalMoneyEarned = puzzleCount * 2.6 + dollsCount * 3 + teddyBearsCount * 4.1 + minionsCount * 8.2 +
+                trucksCount * 2 * 1.0;
+        double rentPrice = totalMoneyEarned * 0.1;
+        double moneyLeft = totalMoneyEarned * discount - rentPrice;
+        if (moneyLeft >= tripPrice ) {
+            System.out.printf("Yes! %.2f lv left.", moneyLeft);
+        } else {
+            System.out.printf("Not enough money! %.2f lv needed.", Math.abs(moneyLeft));
+        }
     }
 
 }

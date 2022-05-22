@@ -27,7 +27,7 @@ public class E11 {
                 if (keyboardCounter % 2 == 0  ){
                     rageCosts = rageCosts + displayPrice;
                 }
-                }
+            }
 
         }
         System.out.printf("Rage expenses: %.2f lv.",rageCosts);

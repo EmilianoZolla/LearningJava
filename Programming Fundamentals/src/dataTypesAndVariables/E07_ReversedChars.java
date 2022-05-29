@@ -11,5 +11,6 @@ public class E07_ReversedChars {
         char lineThree = scanner.nextLine().charAt(0);
 
         System.out.printf("%c %c %c", lineThree, lineTwo, lineOne);
+
     }
 }

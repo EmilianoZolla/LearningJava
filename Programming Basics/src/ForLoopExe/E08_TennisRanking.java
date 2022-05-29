@@ -2,17 +2,17 @@ package ForLoopExe;
 
 import java.util.Scanner;
 
-public class E08_TennisRanklist {
+public class E08_TennisRanking {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int tournirsCount = Integer.parseInt(scanner.nextLine());
+        int tournamentCount = Integer.parseInt(scanner.nextLine());
         int startingPoints = Integer.parseInt(scanner.nextLine());
 
         int points = 0;
         int totalWins = 0;
 
-        for (int i = 1; i <= tournirsCount; i++) {
+        for (int i = 1; i <= tournamentCount; i++) {
             String stage = scanner.nextLine();
             if (stage.equals("W")) {
                 points = points + 2000;
@@ -25,8 +25,8 @@ public class E08_TennisRanklist {
         }
         int totalPoints = startingPoints + points;
         System.out.printf("Final points: %d%n", totalPoints);
-        System.out.printf("Average points: %d%n", (points / tournirsCount));
-        System.out.printf("%.2f%%", ((totalWins * 1.0 / tournirsCount) * 100));
+        System.out.printf("Average points: %d%n", (points / tournamentCount));
+        System.out.printf("%.2f%%", ((totalWins * 1.0 / tournamentCount) * 100));
 
     }
 }

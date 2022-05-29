@@ -8,7 +8,7 @@ public class E10_SpecialNumbers {
 
         int input = Integer.parseInt(scanner.nextLine());
 
-        for (int i = 0; i <= input ; i++) {
+        for (int i = 1; i <= input ; i++) {
             int currentNumber = i;
             int sum = 0;
          while (currentNumber > 0){

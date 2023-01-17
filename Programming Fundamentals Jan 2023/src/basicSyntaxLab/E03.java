@@ -1,8 +1,8 @@
-package basixSyntaxLab;
+package basicSyntaxLab;
 
 import java.util.Scanner;
 
-public class E02 {
+public class E03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,6 +10,8 @@ public class E02 {
 
         if (grade >= 3){
             System.out.println("Passed!");
+        } else {
+            System.out.println("Failed!");
         }
     }
 }

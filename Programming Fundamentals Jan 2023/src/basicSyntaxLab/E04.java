@@ -1,4 +1,4 @@
-package basixSyntaxLab;
+package basicSyntaxLab;
 
 import java.util.Scanner;
 
